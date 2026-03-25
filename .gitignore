@@ -1,0 +1,11 @@
+*.o
+*.exe
+*.out
+
+input.txt
+output.txt
+
+.DS_Store
+Thumbs.db
+
+Makefile
