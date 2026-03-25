@@ -28,8 +28,8 @@ jobs:
       - name: Update README.md
         run: |
           # README.md에서 주석 사이의 내용을 새 표로 교체
-          sed -i '//,//{//!d}' README.md
-          sed -i '//r table.tmp' README.md
+          sed -i '/<!-- START_TABLE -->/,/<!-- END_TABLE -->/{//!d}' README.md
+          sed -i '/<!-- START_TABLE -->/r table.tmp' README.md
           rm table.tmp
 
       - name: Commit and Push changes

@@ -6,5 +6,6 @@ GDGoC 2026SS PS study codes
 ---
 
 ## Problem list
-``
-``
+
+<!-- START_TABLE -->
+<!-- END_TABLE -->
