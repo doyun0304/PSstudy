@@ -1,5 +1,5 @@
 /**
- * MooTube (Silver) https://www.acmicpc.net/problem/15591
+ * MooTube (Silver)
  * algorithm: DFS
  * O(NQ)
  */
